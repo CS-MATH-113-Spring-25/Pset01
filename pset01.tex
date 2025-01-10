@@ -1,0 +1,105 @@
+\documentclass[a4paper]{exam}
+
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{titling}
+
+
+
+% Header and footer.
+\pagestyle{headandfoot}
+\runningheadrule
+\runningfootrule
+\runningheader{CS/MATH 113, SPRING 2025}{Pset 01: Propositional Logic}{\theauthor}
+\runningfooter{}{Page \thepage\ of \numpages}{}
+\firstpageheader{}{}{}
+
+% \printanswers %Uncomment this line
+
+\title{Problem Set 01: Propositional logic}
+\author{Blingblong} % <=== replace with your student ID, e.g. xy012345
+\date{CS/MATH 113 Discrete Mathematics\\Habib University\\Spring 2025}
+
+\qformat{{\large\bf \thequestion. \thequestiontitle}\hfill}
+\boxedpoints
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+    \titledquestion{Parkour Civilization}
+    Let proposition $p$ and $q$ be:
+    \begin{itemize}
+        \item $p$: I would jump 1 block for raw chicken.
+        \item $q$: I am a parkour noob.
+    \end{itemize}
+    Express each of these compound propositions as an English sentence.
+    \begin{parts}
+        \part $\neg q \lor (\neg p \land q)$
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+
+        \part $\neg q \implies \neg p$
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+    \end{parts}
+
+    \titledquestion{Jump off kick back spin for hours}
+    Let proposition $p$ and $q$ be:
+    \begin{itemize}
+        \item $p$: I have an elemental weapon.
+        \item $q$: I am a master of spinjitzu. 
+    \end{itemize}
+    \begin{parts}
+        \part Either I have an elemental weapon or I am a master of spinjitzu, but I don't have an elemental weapon if I am a master of spinjitzu.
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+
+        \part Having an elemental weapon is necessary and sufficient for it to be a master of spinjitzu.
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+    \end{parts}
+
+
+    \titledquestion{Jojo part 7 battle in egypt arc} You're a bizarre adventure with Johnny Joestar to stop the president of the United States. You need to find pieces of the corpse of a saint.
+    The adventure leads you to an island inhabited by knights, who always tell the truth, and knaves, who always lie. 
+    Gyro Zeppeli tells you that a piece is in a cave. The cave is guarded by two enemy stand users \emph{Radiohead} and \emph{Nirvana}, who are inhabitants of the island. One always lies and other always tells the truth.
+    They will only let you into the cave if you can determine, if possible, what \emph{Radiohead} and \emph{Nirvana} are if they address you in the ways described.
+    \emph{Radiohead} says ``The two of us both always tells the truth'' and \emph{Nirvana} says ``\emph{Radiohead} always lie''.
+    \begin{solution}
+        % Enter solution here
+    \end{solution}
+
+    \titledquestion{Khud sey hosakey Milaap} 
+    Show that the absorption laws holds 
+    \begin{parts}
+        \part $p\lor (p\land q) \equiv p$
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+
+        \part $p\land (p\lor q) \equiv p$
+        \begin{solution}
+            % Enter solution here
+        \end{solution}
+    \end{parts}
+    
+
+    \titledquestion{Is it true?} Determine whether $(\neg p \land (p \implies q)) \implies \neg q$ is a tautology.
+
+
+
+      
+\end{questions}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
